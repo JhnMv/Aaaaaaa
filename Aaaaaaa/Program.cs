@@ -14,7 +14,7 @@ namespace Aaaaaaa {
 
          // TimeSpan timeNow = DateTime.Now.TimeOfDay;
          // TimeSpan TimeIn = new TimeSpan(timeNow.Hours, timeNow.Minutes, timeNow.Seconds);
-            TimeSpan TimeIn = new TimeSpan(8, 29, 0);
+            TimeSpan TimeIn = new TimeSpan(8, 30, 0);
             
             Console.WriteLine("Employee " + employeeID + " login time is recorded: " + TimeIn);
             Console.WriteLine();
@@ -26,7 +26,7 @@ namespace Aaaaaaa {
             
          
           // TimeSpan timeOut = new TimeSpan(timeNow.Hours, timeNow.Minutes, timeNow.Seconds);
-            TimeSpan timeOut = new TimeSpan(21, 0, 0); 
+            TimeSpan timeOut = new TimeSpan(17, 0, 0); 
             
             Console.WriteLine("Employee " + employeeID + " login time is recorded: " + timeOut);
             Console.WriteLine();
